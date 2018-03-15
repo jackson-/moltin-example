@@ -17,7 +17,7 @@ const isThereACurrencyPrice = product => {
 const AllProducts = props => {
   if (props.css !== null && props.products.products.data.length > 0) {
     var products = props.products.products;
-
+    console.log('PRODUCTS', products);
     return (
       <main role="main" id="container" className="main-container push">
         <section className="products">

@@ -40,6 +40,7 @@ var CheckoutTemplate = {
 var PaymentTemplate = {
   gateway: 'stripe',
   method: 'purchase',
+  payment: 'tok_visa',
   first_name: 'John',
   last_name: 'Doe',
   number: '4242424242424242',
